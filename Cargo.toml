@@ -21,7 +21,7 @@ regex-automata = "0.4.9"
 
 # Below are fragile dependencies, even minor updates of which often break the code
 [dependencies.hf-hub]
-version = "=0.4.2"
+version = "=0.4.3"
 features = ["ureq", "rustls-tls"]
 default-features = false
 optional = true
